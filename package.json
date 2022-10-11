@@ -1,5 +1,6 @@
 {
-  "name": "mui-react-project",
+  "name": "portfolio-website",
+  "homepage": "https://vipuls.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
