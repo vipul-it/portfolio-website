@@ -1,0 +1,85 @@
+.footer {
+  width: 100%;
+  padding: 3rem 0;
+  background-color: rgba(19, 19, 19, 0.8);
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.left {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.location {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+.right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.middle {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.middle p {
+  line-height: 1.5;
+}
+
+.social {
+  margin-top: 2rem;
+  color: #fff;
+  padding-right: 1.5rem;
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
+.facebook,
+.instagram,
+.twitter,
+.linkedin,
+.github {
+  transition: 0.5s;
+}
+.facebook:hover,
+.instagram:hover,
+.twitter:hover,
+.linkedin:hover,
+.github:hover {
+  color: var(--main-color);
+  transition: 0.5s;
+  margin-top: -0.5rem;
+  cursor: pointer;
+}
+h4 {
+  font-size: 1.2rem;
+  padding-bottom: 0.7rem;
+}
+p {
+  font-size: 1rem;
+}
+.footer-text {
+  color: rgb(117, 111, 111);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 1040px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
