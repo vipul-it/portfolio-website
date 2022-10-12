@@ -14,7 +14,7 @@ const ProjectCardData= [
         imgsrc: pro2,
         title: 'CRUD Opration Using API',
         text: 'An ecommerce website is any site that allows you to buy and sell products and services online. Companies like Amazon and Alibaba are examples of ecommerce websites.',
-        view: 'https://vipuls.in/project/crud-opration/'
+        view: 'https://crud-opration.vipuls.in/'
 
     },
     {
