@@ -4,7 +4,7 @@ import About from './routes/About';
 import Project from './routes/Project';
 import Contact from './routes/Contact';
 
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, Navigate} from 'react-router-dom';
 
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
         <Route path="/project" element={<Project />} />
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="*" element={<Navigate to="/" replace/>} />
     </Routes>
     </>
   )
